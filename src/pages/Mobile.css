@@ -1,0 +1,98 @@
+.body, html {
+  font-family: 'Nunito';
+}
+
+.mobilePreview {
+  padding: 5vh 5vw;
+  text-align: center;
+ 
+}
+
+.mobileParagraph, li {
+  font-size: 1.6rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.mobileLinkButton {
+  margin-right: 10px;
+  padding: 10px 20px;
+  color: #fefefe;
+  background-color: #22223b;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.mobileLinkButton:hover {
+  opacity: 0.8;
+}
+
+.dateComponent .dateInput {
+  font-size: 0.9rem;
+  padding: 0.1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+}
+
+li {
+  list-style-type: disc;
+  text-align: left;
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  color: #666;
+}
+
+.mobileText {
+  font-size: 2rem;
+  text-align: center;
+  color: #333;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.displayImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.displayedImage {
+  max-width: 50%;
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.mobileFooter {
+  background-color: #f0f0f0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.footerButtonsContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  transform: translateX(-10px);
+}
+
+.footerButton {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footerButton:hover {
+  background-color: #f0f0f0;
+}

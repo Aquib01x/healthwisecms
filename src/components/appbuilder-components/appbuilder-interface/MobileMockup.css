@@ -1,0 +1,413 @@
+.linkButtonComponent {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.linkButtonComponent label {
+  margin-bottom: 10px;
+}
+
+.linkButtonComponent button {
+  margin-top: 10px;
+}
+
+.linkButtonContainer {
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 20px;
+
+}
+
+.URLInput {
+  margin-left: 25px;
+  width: 80%;
+}
+
+.ButtonLabelInput {
+  margin-left: 70px;
+  width: 45%;
+}
+
+.MiddleBar {
+
+  color: black;
+  text-align: left;
+  width: 42.95vw;
+  height: 100vh;
+  position: absolute;
+  left: 28.2%;
+  top: 10.9%;
+  height: 100vw;
+
+}
+
+
+
+
+
+.mobileMockup {
+  font-family: 'Nunito';
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+
+  border: 2px solid #ccc;
+
+  max-width: 300px;
+
+  margin-top: 20px;
+
+  margin-left: 125px;
+
+  height: 37%;
+
+  background-color: white;
+
+
+  border-radius: 10px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 1);
+
+
+}
+
+.characterCount {
+
+  font-size: 10px;
+  float: left;
+
+
+}
+
+.titleInput {
+  font-size: 20px;
+  width: 90%;
+  margin-top: 10px;
+
+
+
+
+}
+
+.paragraphInput {
+  font-size: 17px;
+  width: 90%;
+  margin-top: 20px;
+
+}
+
+.mobileHeaderOne {
+
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: #EDEFF1;
+
+}
+
+.mobileContent {
+  flex-grow: 1;
+  overflow-y: auto;
+
+  padding: 10px;
+
+  border-radius: 10px;
+}
+
+.specialBtns {
+  padding: 8px 16px;
+  font-size: 16px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+
+  margin: 4px;
+
+  transition: background-color 0.3s ease;
+
+}
+
+.paragraphInput {
+  width: 80%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+
+  resize: none;
+
+}
+
+
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+
+
+}
+
+.listItem span {
+  margin-right: 8px;
+}
+
+.listItem input {
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  width: 80%;
+}
+
+
+
+
+
+
+
+.imageContainerOne {
+  width: 12rem;
+
+  height: 12rem;
+  border: 2px dashed #ccc;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+
+}
+
+.imageContainerOne img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+
+}
+
+.button {
+
+
+  cursor: pointer;
+
+  border: 1px solid black;
+
+  float: left;
+
+
+}
+
+.button:hover {
+  background-color: grey;
+}
+
+
+.toolbar {
+  float: right;
+
+}
+
+
+
+#AppMenuLogo {
+
+
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 140px;
+
+
+}
+
+#headerText {
+  display: inline;
+}
+
+.interactiveQuiz {
+  margin-top: 30px;
+  font-size: 15px;
+
+}
+
+.quizInput {
+  display: block;
+  width: 80%;
+  padding: 1px;
+  margin-bottom: 1px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+
+}
+
+.quizOption {
+  margin-bottom: 20px;
+}
+
+.benefitsLabel,
+.consLabel {
+  font-weight: bold;
+  display: inline;
+
+  margin-left: 55px;
+
+}
+
+.blankLabel {
+  flex-basis: 150px;
+}
+
+.labelsColumn {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+
+  font-weight: bold;
+  grid-row: span 2;
+
+  padding-right: 0px;
+  padding-bottom: 10px;
+
+
+}
+
+#changing {
+  padding-bottom: 60px;
+}
+
+.decisionalBalanceSheet {
+  display: grid;
+  grid-template-columns: auto 1fr 1fr;
+  align-items: start;
+
+}
+
+.contentInput {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  height: 100px;
+  resize: none;
+}
+
+
+.dateComponent .dateInput {
+  margin-top: 10px;
+  width: 80%;
+
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+
+
+}
+
+
+.placementQuiz {
+  margin-bottom: 10px;
+}
+
+
+.successfulGoalsReminder h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.successfulGoalsReminder ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.successfulGoalsReminder li {
+  margin-bottom: 5px;
+}
+
+.goalSetter {
+  padding: 2px;
+  margin: 10px;
+
+}
+
+
+
+.alternativeActivityGenerator input,
+.alternativeActivityGenerator textarea {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.alternativeActivityGenerator textarea {
+  resize: vertical;
+
+}
+
+.alternativeActivityGenerator {
+  margin-bottom: 20px;
+
+}
+
+.evaluationQuiz {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+
+}
+
+.sliderContainer {
+  margin: 20px 0;
+}
+
+.sliderContainer input[type=range] {
+  width: 80%;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labels input {
+
+  text-align: center;
+  width: 80%;
+}
+
+.evaluationResults {
+  padding: 20px;
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  margin-top: 20px;
+}
+
+.evaluationResults h3 {
+  margin-bottom: 15px;
+}
+
+.mobileFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+  background-color: #EDEFF1;
+  border-radius: 50px;
+}
+
+.footerButton {
+  padding: 5px 10px;
+  color: #22223b;
+  font-weight: bold;
+
+}

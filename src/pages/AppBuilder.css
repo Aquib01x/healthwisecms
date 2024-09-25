@@ -1,0 +1,117 @@
+body,
+html {
+    overflow: hidden;
+    background-color: #F9FAFB;
+    ;
+}
+
+
+
+.topRightButton:hover {
+    opacity: 0.8;
+
+}
+
+.modal {
+    position: fixed;
+    z-index: 2;
+    left: 25%;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+
+.topSection{
+
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.deleteAppButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0; 
+  }
+  
+  .deleteAppIcon {
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+  }
+
+.appInfoSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: black;
+    padding: 6px;
+    width: 10%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.topRightButton {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 10px 20px;
+    position: absolute;
+    color: #fefefe; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+ 
+  .publishButton {
+    background-color: #22223b;
+    right: 10px;
+  }
+  
+  
+  .previewButton {
+    color: #22223b; 
+    background-color: white;
+    right: 120px; 
+    box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.1); 
+  }

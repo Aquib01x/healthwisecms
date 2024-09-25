@@ -1,0 +1,43 @@
+.accountManagementContainer {
+    margin-top: 64px;
+    margin-left: 30px;
+  }
+  
+  .accountManagementHeader {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .accountManagementForm label {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .accountManagementForm input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .accountManagementForm button {
+    padding: 10px 20px;
+    background-color: #4B5563;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .accountManagementForm button:hover {
+    background-color: #374151;
+  }
+  
+  .accountManagementMessage {
+    color: #d9534f; 
+    margin-top: 20px;
+  }

@@ -1,0 +1,173 @@
+.rightSideBar {
+
+  background-color: white;
+  color: black;
+
+  padding: 10px 10px;
+
+  text-align: center;
+
+  border-radius: 10px;
+
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  
+
+}
+
+#Components {
+  text-align: center;
+  font-size: 20px;
+}
+
+#Instructions {
+  text-align: center;
+  font-size: 10px;
+}
+
+.componentButton {
+  padding: 10px;
+  color: black(0, 0%, 100%);
+  background-color: white;
+  border-radius: 10px;
+
+
+  width: 150px;
+
+  margin-left: 0px;
+  margin-top: 12px;
+
+
+
+}
+
+.rightSideBarContents{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-top: 1px;
+  margin-bottom: 35px;
+  font-weight: bold;
+  color: black;
+  border: 2px solid #EDEFF1;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #EDEFF1;
+
+}
+
+
+.rightSideBarButtonBase {
+  display: inline-block;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  padding-left: 20px; 
+  padding-bottom: 15px; 
+  margin-bottom: 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.rightSideBarButtonBase:hover {
+  background-color: #EDEFF1;
+}
+
+.rightSideBarButtonActive {
+  background-color: #E7EFFA;
+  color: #3387F3;
+}
+
+
+#InteractiveQuiz {
+  background-color: black;
+  color: white;
+}
+
+
+#DBEvaluator {
+  background-color: black;
+  color: white;
+
+}
+
+#DecisionalBalance {
+  background-color: black;
+  color: white;
+}
+
+#GoalSetter {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+.goalSetting {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.goalSetting h2 {
+  margin-bottom: 20px;
+}
+
+.goalSetting form {
+  display: flex;
+  flex-direction: column;
+}
+
+.goalSetting label {
+  margin-bottom: 10px;
+}
+
+.goalSetting input[type="text"],
+.goalSetting input[type="date"] {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.goalSetting button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+#SuccessReminder {
+  background-color: black;
+  color: white;
+}
+
+#AlternateActivity {
+  background-color: black;
+  color: white;
+}
+
+#EvaluationQuiz {
+  background-color: black;
+  color: white;
+}
+
+
+#EvaluationResults {
+  background-color: black;
+  color: white;
+}

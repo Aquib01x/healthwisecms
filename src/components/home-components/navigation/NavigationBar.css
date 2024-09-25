@@ -1,0 +1,67 @@
+html{
+  font-family: 'Nunito, sans-serif';}
+
+.logoutButton button {
+    margin-top: 100px;
+    width: 100%; 
+    padding: 10px; 
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+  
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px; 
+    margin-bottom: 30px; 
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .buttonBase {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    transition: background-color 0.2s; 
+  }
+  
+  .buttonBase:hover {
+    background-color: #EDEFF1;
+  }
+  
+  .buttonActive {
+    background-color: #E7EFFA;
+    color: #3387F3;
+  }
+
+  .userEmail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid #EDEFF1;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #EDEFF1;
+  }

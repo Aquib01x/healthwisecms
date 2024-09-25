@@ -1,0 +1,6 @@
+
+
+.partecipantsContainer{
+overflow-y: auto; /* for vertical scrolling */
+max-height: 90vh; /* max height*/
+}
