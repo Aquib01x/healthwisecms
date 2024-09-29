@@ -8,12 +8,11 @@ This application comes in the form of a web app. Without requiring any technical
 
 Here are some screenshots of the finished application:
 
-Web Application:
 
 <img width="659" alt="Screenshot 2024-09-29 alle 17 16 23" src="https://github.com/user-attachments/assets/dc3b4f00-407c-4709-9206-ea5376d6564d">
 <img width="659" alt="Screenshot 2024-09-29 alle 17 16 45" src="https://github.com/user-attachments/assets/54acfe1a-9640-404c-893a-ca0811883ebd">
 <img width="659" alt="Screenshot 2024-09-29 alle 17 17 02" src="https://github.com/user-attachments/assets/12bd5934-7799-4337-a453-e19d89589893">
 
-Mobile Application:
+Mobile Application Example:
 
 <img width="195" alt="Screenshot 2024-09-29 alle 17 17 49" src="https://github.com/user-attachments/assets/314b6b84-c15d-4bbe-93f0-f5c97dcf5b11">
