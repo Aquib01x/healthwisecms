@@ -1,4 +1,4 @@
-# Project Overview
+# Frontend Overview
 
 
 This repo showcases a secure and research-backed content management system to allow physical activity health researchers to develop and publish mobile
