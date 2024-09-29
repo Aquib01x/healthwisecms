@@ -15,4 +15,5 @@ Here are some screenshots of the finished application:
 
 Mobile Application Example:
 
+
 <img width="195" alt="Screenshot 2024-09-29 alle 17 17 49" src="https://github.com/user-attachments/assets/314b6b84-c15d-4bbe-93f0-f5c97dcf5b11">
